@@ -2,7 +2,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function Projects() {
   return (
     <div
       className="flex flex-col min-h-screen"
@@ -12,9 +12,9 @@ export default function Home() {
 
       <main className="flex flex-col flex-grow p-8 sm:p-8">
         <div>
-          <h1 className="text-4xl font-bold">Hi! I am Chris</h1>
+          <h1 className="text-4xl font-bold">My Projects</h1>
           <p className="mt-4 text-lg">
-            Welcome to my homepage where I share my projects and interests.
+            Here are some of the projects I have worked on.
           </p>
         </div>
       </main>
