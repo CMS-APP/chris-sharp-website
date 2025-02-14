@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-  const linkedinLink = "https://www.linkedin.com/in/";
+  const linkedinLink = "https://www.linkedin.com/in/chris-sharp-/";
 
   return (
     <footer
