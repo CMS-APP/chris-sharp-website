@@ -1,3 +1,5 @@
+/** @format */
+
 "use client";
 
 import { useState } from "react";
@@ -30,7 +32,7 @@ export default function Header() {
           <p
             style={{
               fontFamily: "var(--font-poppins-regular)",
-              color: "white",
+              color: "white"
             }}
           >
             Chris Sharp
@@ -41,7 +43,7 @@ export default function Header() {
           className="hidden md:flex space-x-6"
           style={{ paddingRight: 10, fontWeight: 800 }}
         >
-          <Link
+          {/* <Link
             href="/about"
             className={`hover:scale-110 transition-transform ${
               isActive("/about") ? "text-[var(--secondary)]" : "text-white"
@@ -49,7 +51,7 @@ export default function Header() {
             style={{ fontFamily: "var(--font-poppins-regular)" }}
           >
             About
-          </Link>
+          </Link> */}
 
           <Link
             href="/projects"
@@ -94,7 +96,7 @@ export default function Header() {
             transition={{ duration: 0.2 }}
             className="md:hidden bg-[var(--primary)] p-4 absolute w-full shadow-lg"
           >
-            <Link
+            {/* <Link
               href="/about"
               className={`block py-2 ${
                 isActive("/about") ? "text-[var(--secondary)]" : "text-white"
@@ -102,7 +104,7 @@ export default function Header() {
               style={{ fontFamily: "var(--font-poppins-bold)" }}
             >
               About
-            </Link>
+            </Link> */}
             <Link
               href="/projects"
               className={`block py-2 ${
