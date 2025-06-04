@@ -21,7 +21,7 @@ export default function Button({ text, onClick }) {
         e.currentTarget.style.backgroundColor = "var(--primary)";
       }}
     >
-      {text}
+      <p className="text-white">{text}</p>
     </button>
   );
 }

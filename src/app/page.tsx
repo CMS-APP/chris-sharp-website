@@ -61,8 +61,7 @@ export default function Home() {
           <p className="mx-10 my-5 text-lg" style={{ textAlign: "center" }}>
             Welcome to my page. I&apos;m a software engineer and app developer
             with a passion for building applications that are both functional
-            and aesthetically pleasing. I&apos;m currently working as a data
-            scientist at{" "}
+            and aesthetic. I&apos;m currently working as a data scientist at{" "}
             <a
               href="https://www.hvn-labs.com"
               target="_blank"
@@ -70,7 +69,15 @@ export default function Home() {
             >
               {`HVN-Labs`}
             </a>{" "}
-            and I&apos;m a self-taught app developer.
+            and I&apos;m the technical co-founder for{" "}
+            <a
+              href="https://www.eventfulapp.com"
+              target="_blank"
+              style={{ color: "black", textDecoration: "underline" }}
+            >
+              {`Eventful`}
+            </a>
+            .
           </p>
 
           <div

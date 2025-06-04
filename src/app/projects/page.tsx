@@ -24,7 +24,7 @@ const projects = [
     description:
       "A mobile app that allows you to create running routes using AI.",
     image: "/projects/traila.png",
-    link: "https://example.com"
+    link: "https://apps.apple.com/gb/app/traila/id6746490940"
   },
   {
     name: "FixMyFlat",
@@ -67,7 +67,7 @@ export default function Projects() {
           >
             MY PROJECTS
           </h1>
-          <h2 className="mx-10 my-5" style={{ textAlign: "center" }}>
+          <h2 className="mx-10 mb-5" style={{ textAlign: "center" }}>
             Some of the projects I am working on
           </h2>
         </div>

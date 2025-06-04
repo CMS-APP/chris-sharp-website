@@ -1,38 +1,24 @@
 /** @format */
 
-import Button from "@/components/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectItem({ project }) {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "20px",
-        flexDirection: "row",
-        backgroundColor: "#d3d3d3",
-        padding: "20px",
-        borderRadius: "20px"
-      }}
-    >
-      <Image
-        src={project.image}
-        alt={project.name}
-        width={100}
-        height={100}
-        style={{ borderRadius: "20px" }}
-      />
-      <div style={{ display: "flex", flexDirection: "column" }}>
-        <h2>{project.name}</h2>
-        <p style={{ marginBottom: "5px" }}>{project.description}</p>
-        <Button
-          text="View Website"
-          onClick={() => {
-            window.location.href = project.link;
-          }}
+    <Link href={project.link}>
+      <div className="widget flex flex-row items-center">
+        <Image
+          src={project.image}
+          alt={project.name}
+          width={100}
+          height={100}
+          style={{ borderRadius: "20px" }}
         />
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <h2>{project.name}</h2>
+          <p style={{ marginBottom: "5px" }}>{project.description}</p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
